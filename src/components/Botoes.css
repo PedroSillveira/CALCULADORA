@@ -1,0 +1,33 @@
+/* Estilo geral dos botões */
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    margin: 0.2em;
+    background-color: #333333;
+    color: #DEDEDE;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.btn-sinal {
+    background-color: #a8a7a8;
+}
+.btn-ultima-fileira {
+    background-color: #fe9500;
+    color: #DEDEDE;
+}
+
+/* Estilo para o container geral dos botões */
+.botoes {
+    background-color: #000000;
+    border-radius: 2em;
+    max-width: 500px;
+    padding: 1em;
+    margin: auto;
+}
+
+
