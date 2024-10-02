@@ -40,27 +40,18 @@ const Calculadora = () => {
     setOldResult(result);
     setResult(0);
   }
-
+  // FUNCÇÃO DE CALCULO
   function calculate() {
     if(operador === "/") {
-      setResult(oldResult / result);
+      setResult(parseFloat(oldResult) /  parseFloat(result));
     } else if(operador === "X") {
-      setResult(oldResult * result);
-    } else if(operador === "+") {
-      setResult(oldResult + result);
+      setResult(parseFloat(oldResult) *  parseFloat(result));
     } else if(operador === "-") {
-      setResult(oldResult - result);
+      setResult(parseFloat(oldResult) -  parseFloat(result));
+    } else if(operador === "+") {
+      setResult(parseFloat(oldResult) + parseFloat(result));
     }
-
   }
-
-
-
-
-
-
-
-
 
   return (
     <div className='calculadora'>
@@ -91,9 +82,9 @@ const Calculadora = () => {
             <button className="numero" onClick={inputResult} value={3}>3</button>
             <button className="btn-laranja" onClick={operadorHandler} value={"+"}>+</button>
             {/* FILEIRA 03 */}
-            <button className="numero" onClick={inputResult} value={0}>0</button>
-            <button className="btn-cinza" onClick={inputResult} value={"."}>.</button>
-            <button className="btn-cinza" onClick={inputResult} value={","}>,</button>
+            <button className="numero lastLine" onClick={inputResult} value={0}>0</button>
+            <button className="btn-cinza" onClick={inputResult} value={"."}>,</button>
+            {/* UTILIZAR PONTO NO VALUE! */}
             <button className="btn-laranja" onClick={calculate}>=</button>
 
           </Col>

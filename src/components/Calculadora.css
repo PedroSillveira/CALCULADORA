@@ -16,15 +16,6 @@
     display: flex;
     justify-content: flex-end;
 }
-
-
-
-
-
-
-
-
-
 /* Estilo geral dos botões */
 button {
     width: 3em;
@@ -57,7 +48,8 @@ button:hover {
 .btn-laranja:hover {
     background-color: #d37b01;
 }
-
-
+.lastLine {
+    margin-left: 3.6em;
+}
 
 

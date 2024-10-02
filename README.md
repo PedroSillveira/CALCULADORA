@@ -1,52 +1,51 @@
-## Calculadora React
+# Calculadora
 
-Este projeto é uma calculadora web desenvolvida utilizando **React** e **Bootstrap**. O objetivo deste projeto é demonstrar a criação de uma aplicação interativa e responsiva, aplicando conceitos fundamentais de desenvolvimento front-end.
+Este é um projeto de uma calculadora simples desenvolvida com React e Bootstrap.
+
+![Logo do Projeto](./public/calculadora.jpg)
+
 
 ## Funcionalidades
 
-- **Operações Básicas**: Suporta operações matemáticas básicas como adição, subtração, multiplicação e divisão.
-- **Interface Responsiva**: Utiliza Bootstrap para garantir que a interface seja responsiva e amigável em diferentes dispositivos.
-- **Histórico de Operações**: Armazena e exibe o histórico das operações realizadas durante a sessão.
-- **Limpeza de Dados**: Função para limpar a tela e o histórico de operações.
-- **Teclado Virtual**: Implementação de um teclado virtual para facilitar a inserção de números e operações.
+- Adição, subtração, multiplicação e divisão
+- Limpar resultado
+- Conversão de sinal (positivo/negativo)
+- Cálculo de porcentagem
 
 ## Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Bootstrap**: Framework CSS para desenvolvimento de interfaces responsivas e modernas.
-- **JavaScript (ES6+)**: Utilização de funcionalidades modernas do JavaScript para manipulação de estados e eventos.
-- **HTML5**: Estruturação semântica da aplicação.
-- **CSS3**: Estilização customizada para complementar o Bootstrap.
+- React
+- Bootstrap
+- CSS
 
-## Como Executar o Projeto
+### Funções
 
-1. Clone este repositório:
-    
-    ```bash
-    git clone https://github.com/seu-usuario/calculadora-react.git
-    ```
-    
+- `inputResult()`: Adiciona números ao resultado atual.
+- `limpar()`: Limpa o resultado.
+- `porcentagem()`: Calcula a porcentagem do resultado atual.
+- `conversor()`: Converte o sinal do resultado atual.
+- `operadorHandler()`: Armazena o operador e o resultado atual para operações futuras.
+- `calculate()`: Realiza o cálculo com base no operador armazenado.
+
+### Estilização
+
+Estilização simples feita através do arquivo `Calculadora.css`. <a href="/teste/src/components/Calculadora.css">Saiba mais</a>
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora.git
+   ```
 2. Navegue até o diretório do projeto:
-    
-    ```bash
-    cd calculadora-react
-    ```
-    
+   ```bash
+   cd calculadora
+   ```
 3. Instale as dependências:
-    
-    ```bash
-    npm install
-    ```
-    
-4. Execute a aplicação:
-    
-    ```bash
-    npm start
-    ```
-    
-
-## Estrutura do Projeto
-
-- **src/components**: Contém os componentes React utilizados na aplicação.
-- **src/styles**: Arquivos CSS customizados.
-- **src/App.js**: Componente principal que integra todos os componentes da calculadora.
+   ```bash
+   npm install
+   ```
+4. Execute o projeto:
+   ```bash
+   npm start
+   ```
