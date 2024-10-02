@@ -1,5 +1,5 @@
 import './App.css';
-import  Botoes  from './components/Botoes';
+import  Botoes  from './components/Calculadora';
 
 
 function App() {

@@ -1,0 +1,63 @@
+/* grupo de botoes */
+.calculadora {
+    background-color: #000000;
+    border-radius: 2em;
+    max-width: 420px;
+    margin: auto;
+    padding: 1em;
+}
+/* resultado */
+.resultado {
+    color: #DEDEDE;
+    font-size: 5em;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+/* Estilo geral dos botões */
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: none;
+    border-radius: 50%;
+    margin: 0.2em;
+    background-color: #333333;
+    color: #DEDEDE;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #565656;
+}
+/* cinza */
+.btn-cinza {
+    background-color: #a8a7a8;
+    color: #333333;
+}
+.btn-cinza:hover {
+    background-color: #bababa;
+}
+/* laranja */
+.btn-laranja {
+    background-color: #fe9500;
+    color: #DEDEDE;
+}
+.btn-laranja:hover {
+    background-color: #d37b01;
+}
+
+
+
+
